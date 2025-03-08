@@ -1,13 +1,15 @@
-📌 Go Data Structures
+#   📌 Go Data Structures
 
-📖 Overview
+## 📖 Overview
 
 This package provides implementations of essential data structures in
 Go, including graphs and other commonly used structures. It is designed
 to help developers efficiently manage and manipulate data while
 maintaining code simplicity and readability.
 
-✨ Features
+---
+
+## ✨ Features
 
 ✅ Implementation of Graph data structures. ✅ Utility functions for
 adding nodes and edges. ✅ Easy-to-use API for creating and managing
@@ -26,10 +28,11 @@ go mod init github.com/yourusername/yourrepo
 go get github.com/beingbravado/go-data-structures
 ```
 
+---
 
-🚀 Usage
+## 🚀 Usage
 
-🔹 Creating a Graph
+### 🔹 Creating a Graph
 
 Below is an example demonstrating how to create and use a graph:
 
@@ -46,7 +49,7 @@ g.AddEdge(3, 4)
 }
 ```
 
-🔹 Creating a Graph from Prerequisites
+### 🔹 Creating a Graph from Prerequisites
 
 ```
 prereqs := \[\]\[\]int{{1, 0}, {2, 0}, {3, 1}, {3, 2}} g :=
@@ -61,20 +64,24 @@ To run unit tests, use:
 go test -v ./...
 ```
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
 
 Contributions are welcome! 🎉 If you'd like to add new features, improve
 documentation, or fix bugs, follow these steps:
 
-1. *Fork* the repository.
+1. **Fork** the repository.
 
-2. *Create a new branch*.
+2. **Create a new branch**.
 
-3. *Make your changes* and commit them.
+3. **Make your changes** and commit them.
 
-4. *Push the changes* and submit a *pull request*.
+4. **Push the changes** and submit a **pull request**.
+
+---
 
 📬 Contact
 
-For questions or suggestions, feel free to *reach out via GitHub Issues*.
+For questions or suggestions, feel free to **reach out via GitHub Issues**.
 😊
