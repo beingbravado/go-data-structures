@@ -18,13 +18,14 @@ data structures.
 To use this package in your Go project, first ensure you have Go
 installed. Then, initialize a Go module and install the package:
 
+```
 # Initialize a new Go module (if not already done)
-
 go mod init github.com/yourusername/yourrepo
 
 # Get the package
-
 go get github.com/beingbravado/go-data-structures
+```
+
 
 🚀 Usage
 
@@ -32,6 +33,7 @@ go get github.com/beingbravado/go-data-structures
 
 Below is an example demonstrating how to create and use a graph:
 
+```
 package main
 
 import ( "fmt" "github.com/beingbravado/go-data-structures/graph" )
@@ -42,37 +44,37 @@ g.AddEdge(3, 4)
     fmt.Println("Graph Nodes:", g.Nodes())
 
 }
+```
 
 🔹 Creating a Graph from Prerequisites
 
+```
 prereqs := \[\]\[\]int{{1, 0}, {2, 0}, {3, 1}, {3, 2}} g :=
 graph.CreateGraph(4, prereqs)
+```
 
 🛠 Running Tests
 
 To run unit tests, use:
 
+```
 go test -v ./...
+```
 
 🤝 Contributing
 
 Contributions are welcome! 🎉 If you'd like to add new features, improve
 documentation, or fix bugs, follow these steps:
 
-Fork the repository.
+1. *Fork* the repository.
 
-Create a new branch.
+2. *Create a new branch*.
 
-Make your changes and commit them.
+3. *Make your changes* and commit them.
 
-Push the changes and submit a pull request.
-
-📜 License
-
-This project is licensed under the MIT License - see the LICENSE file
-for details.
+4. *Push the changes* and submit a *pull request*.
 
 📬 Contact
 
-For questions or suggestions, feel free to reach out via GitHub Issues.
+For questions or suggestions, feel free to *reach out via GitHub Issues*.
 😊
