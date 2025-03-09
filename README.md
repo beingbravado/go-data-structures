@@ -37,12 +37,13 @@ go get github.com/beingbravado/go-data-structures
 Below is an example demonstrating how to create and use a graph:
 
 ```
-package main
-
 import ( "fmt" "github.com/beingbravado/go-data-structures/graph" )
 
-func main() { g := graph.NewGraph() g.AddEdge(1, 2) g.AddEdge(2, 3)
-g.AddEdge(3, 4)
+func main() { 
+    g := graph.NewGraph() 
+    g.AddEdge(1, 2) 
+    g.AddEdge(2, 3)
+    g.AddEdge(3, 4)
 
     fmt.Println("Graph Nodes:", g.Nodes())
 
@@ -52,8 +53,8 @@ g.AddEdge(3, 4)
 ### 🔹 Creating a Graph from Prerequisites
 
 ```
-prereqs := \[\]\[\]int{{1, 0}, {2, 0}, {3, 1}, {3, 2}} g :=
-graph.CreateGraph(4, prereqs)
+prereqs := [][]int{{1, 0}, {2, 0}, {3, 1}, {3, 2}}
+g := graph.CreateGraph(4, prereqs)
 ```
 
 🛠 Running Tests
